@@ -15,6 +15,7 @@ function App() {
     console.log(name, age);
     setUsersList([...usersList, { name, age }]);
   };
+  console.log("abc");
   return (
     <div>
       <UserInput onAddUser={addUserHandler} />
